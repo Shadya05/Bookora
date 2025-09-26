@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookora</title>
+    <link rel="stylesheet" href="sty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Manufacturing+Consent&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="navbar">
+        <h1>Bookora</h1>
+
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>2 states</h2>
+            <h5>Chetan Bhaghat</h5>
+            <p>"2 States is a witty and emotional love story of a couple from different cultural backgrounds — a Punjabi boy and a Tamil girl — navigating family drama and stereotypes to unite in marriage. Based on the author’s real-life story, it humorously portrays the clash and blend of two vibrant Indian traditions.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2> ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
