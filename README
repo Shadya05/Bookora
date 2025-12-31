@@ -1,0 +1,21 @@
+# Bookora
+
+Bookora is a **modern React web app** for browsing and discovering books.  
+It features a sleek UI, search functionality, and integrates with the Google Books API.
+
+##  Features
+- Browse books by category
+- Search by title/author
+- Responsive UI
+- Add favorites
+- Authentication (if applicable)
+
+##  Tech Stack
+React | JavaScript | CSS | API
+
+## Installation
+```bash
+git clone https://github.com/Shadya05/Bookora.git
+cd Bookora
+npm install
+npm start
